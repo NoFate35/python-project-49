@@ -1,8 +1,8 @@
-
 #!/usr/bin/env python3
 
 from brain_games.game_logic import greeting_user
 from brain_games.game_logic import brain_even_logic
+
 
 def main():
 
@@ -14,13 +14,10 @@ def main():
         print(f"Congratulations, {user_name}!")
     else:
         user_answer, correct_answer = result_number_displaying
-        print(f"'{user_answer}' is wrong answer ;(. Correct answer was'{correct_answer}'. Let's try again, {user_name}")
+        print(f"'{user_answer}' is wrong answer ;(.")
+        print(f"Correct answer was'{correct_answer}'.")
+        print(f"Let's try again, {user_name}!")
 
 
 if __name__ == '__main__':
     main()
-
-
-
-
-

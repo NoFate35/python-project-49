@@ -2,7 +2,7 @@
 
 from random import randint
 import prompt
-from brain_games.scripts import brain_even
+
 
 def number_displaying():
     question_count = 0
@@ -19,13 +19,14 @@ def number_displaying():
 
 
 def number_even_checking(number):
-    if number % 2  == 0:
+    if number % 2 == 0:
         return 'yes'
     return 'no'
 
 
 def main():
     number_displaying()
+
 
 if __name__ == "__name__":
     main()
