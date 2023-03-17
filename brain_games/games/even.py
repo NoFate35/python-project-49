@@ -1,5 +1,5 @@
 import random
-'''generate a random number, check for even and return
+'''Generate a random number, check for even and return
 (correct answer, random number as question) to round_logic.round_displaying'''
 
 

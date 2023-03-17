@@ -1,4 +1,6 @@
 import random
+'''Gcd - наибольший общий делитель generate two random numbers;
+lookong the gratest of them.'''
 
 
 def get_random_numbers_for_gcd():
@@ -14,6 +16,9 @@ def get_random_numbers_for_gcd():
             f'{number1} {number2}')
 
 
+'''Get divisors lists of the both numbers'''
+
+
 def get_divisors_lists(first_number, second_number):
     first_number_divisors = []
     for i in range(1, first_number + 1):
@@ -24,6 +29,9 @@ def get_divisors_lists(first_number, second_number):
         if second_number % i == 0:
             second_number_divisors.append(i)
     return get_gcd(first_number_divisors, second_number_divisors, )
+
+
+'''Get gratest common divisor'''
 
 
 def get_gcd(first_number_divisors, second_number_divisors):

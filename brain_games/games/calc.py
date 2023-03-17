@@ -1,4 +1,7 @@
 import random
+'''Generate operator (+, -, *), then, in dependence
+of operator generate two random numbers
+and return (correct answer, question) '   '''
 
 
 def generate_operator():
