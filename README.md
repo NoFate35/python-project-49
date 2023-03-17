@@ -8,3 +8,7 @@ https://asciinema.org/a/NfWRUdKwhRd9xwp0Cqfq07TN7
 brain-calc usage example:
 https://asciinema.org/a/kXHHZ8L7ZxgF0it6UkaufY8g1
 
+brain-gcd usage example:
+https://asciinema.org/a/LlhuABcCXFeOzBHQInDAsYKGM
+
+
