@@ -11,4 +11,8 @@ https://asciinema.org/a/kXHHZ8L7ZxgF0it6UkaufY8g1
 brain-gcd usage example:
 https://asciinema.org/a/LlhuABcCXFeOzBHQInDAsYKGM
 
+brain-progression usage example:
+https://asciinema.org/a/EWCi8VZeEfHCg7tByMJr2YX9f
+
+
 

@@ -1,7 +1,7 @@
 import random
 
 
-def get_gcd_random_numbers():
+def get_random_numbers_for_gcd():
     number1 = random.randint(1, 10)
     number2 = random.randint(1, 10)
     if number1 >= number2:
@@ -10,11 +10,11 @@ def get_gcd_random_numbers():
     else:
         first_number = number2
         second_number = number1
-    return (get_divisors_list(first_number, second_number),
+    return (get_divisors_lists(first_number, second_number),
             f'{number1} {number2}')
 
 
-def get_divisors_list(first_number, second_number):
+def get_divisors_lists(first_number, second_number):
     first_number_divisors = []
     for i in range(1, first_number + 1):
         if first_number % i == 0:
@@ -35,7 +35,7 @@ def get_gcd(first_number_divisors, second_number_divisors):
 
 
 def main():
-    get_gcd_random_numbers()
+    get_random_numbers_for_gcd()
 
 
 if __name__ == '__main__':
