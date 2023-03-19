@@ -3,7 +3,7 @@ import random
 
 
 def get_random_number():
-    random_number = random.randint(1, 30)
+    random_number = random.randint(2, 30)
     return (check_for_prime(random_number), str(random_number))
 
 
