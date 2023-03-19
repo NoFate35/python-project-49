@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import random
 '''Gcd - наибольший общий делитель generate two random numbers;
 lookong the gratest of them.'''

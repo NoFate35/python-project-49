@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import random
 '''Generate operator (+, -, *), then, in dependence
 of operator generate two random numbers
@@ -34,3 +35,11 @@ def multiply():
     second_argument = random.randint(1, 10)
     return (str(first_argument * second_argument),
             f'{first_argument} * {second_argument}')
+
+
+def main():
+    generate_operator()
+
+
+if __name__ == '__main__':
+    main()

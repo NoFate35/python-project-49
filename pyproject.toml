@@ -1,10 +1,12 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "Contains 5 games with numbers"
 authors = ["Ivan"]
 readme = "README.md"
+classifiers = ["Programming Language :: Python :: 3"]
 packages = [{ include = "brain_games" }]
+repository = "https://github.com/NoFate35/python-project-49.git"
 
 [tool.poetry.dependencies]
 python = "^3.10"

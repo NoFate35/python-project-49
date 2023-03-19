@@ -20,6 +20,6 @@ def body_game_displaying(game_rules, game_function):
         print(f"Congratulations, {user_name}!")
     else:
         user_answer, correct_answer = result_round_displaying
-        print(f"'{user_answer}' is wrong answer ;(.")
+        print(f"'{user_answer}' is wrong answer ;(.", end=' ')
         print(f"Correct answer was'{correct_answer}'.")
         print(f"Let's try again, {user_name}!")

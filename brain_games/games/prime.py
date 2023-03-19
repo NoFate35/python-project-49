@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import random
 
 
@@ -12,3 +13,11 @@ def check_for_prime(random_number):
         if random_number % i == 0:
             return 'no'
     return 'yes'
+
+
+def main():
+    get_random_number()
+
+
+if __name__ == '__main__':
+    main()

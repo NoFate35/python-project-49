@@ -14,5 +14,9 @@ https://asciinema.org/a/LlhuABcCXFeOzBHQInDAsYKGM
 brain-progression usage example:
 https://asciinema.org/a/EWCi8VZeEfHCg7tByMJr2YX9f
 
+brain-prime usage example:
+https://asciinema.org/a/YikLKILTbnRxaYQ2FZ6kkc8cR
+
+
 
 
